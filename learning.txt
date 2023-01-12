@@ -1,0 +1,21 @@
+--- CI/CD Pipeline:
+
+- Create an account on GitHub
+- Create repositary, then create a branch (separate from "main" to your own "Dev")
+- Download & Install GitBash from Get-SCM & after successfully installation > Right click on the same folder of your HTML files and Click on GitBash
+- Write this command " Git --global user.name Ahmed (Enter) Git --global user.email "myemail@gmail.com" (Enter) git --global user.name "user-name"(Enter)
+- touch .gitignore (an Empty file will be generated)
+- Add folders inside of the .gitignore (NotePad) like this "foldername/" to avoid pushing to Github.
+- write "git init" to see the hidden file
+- write git add . to push the html files to GitHub
+- write git commit -m "initial commit" to transfer the files
+- write git status to check the status
+- write git remote add origin git@github.com:ahmedibr762/devops.git - to apply the folder
+- Authenticate the SSH keys - "Generating a new SSH key and adding it to the ssh-agent."
+  https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=windows
+- Write cat /c/Users/Ahmed/.ssh/id_ed25519.pub (Path generated)
+- After successfully adding SSH key to allow your computer to push the files inside of the repsotaory
+- write git push origin dev (last one is the branch name)
+
+--TUTORIAL: Github setup & Add HTML website inside of the GitHub:
+--https://youtu.be/G14WMD8Kg3U
